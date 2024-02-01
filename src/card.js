@@ -18,7 +18,7 @@ function createDeck(deck) {
     return deck;
 }
 
-function countDeck(deck) {
+function countCards(deck) {
     return deck.length;
 }
 
@@ -67,7 +67,7 @@ module.exports = {
     createCard,
     evaluateGuess,
     createDeck,
-    countDeck,
+    countCards,
     createRound,
     takeTurn,
     calculatePercentCorrect,

@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const { createCard, evaluateGuess, createDeck, countDeck, createRound, takeTurn, calculatePercentCorrect, endRound } = require('../src/card');
+const { createCard, evaluateGuess, createDeck, countCards, createRound, takeTurn, calculatePercentCorrect, endRound } = require('../src/card');
 
 describe('card', function() {
   it('should be a function', function() {
@@ -45,7 +45,7 @@ describe('card', function() {
   });  
 
   it('should be a function', function() {
-    expect(countDeck).to.be.a('function');
+    expect(countCards).to.be.a('function');
   });
 
   it('should count how many cards are in the deck', function() {
@@ -54,7 +54,7 @@ describe('card', function() {
     const card3 = createCard(3, 'What state only borders one other state?', ['Florida', 'Maryland', 'Maine'], 'Maine');
 
     const deck = createDeck([card1, card2, card3])
-    const deckCount = countDeck(deck)
+    const deckCount = countCards(deck)
 
     expect(deckCount).to.equal(3);
   }); 
