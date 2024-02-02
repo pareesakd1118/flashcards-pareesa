@@ -1,58 +1,18 @@
-# FlashCards Starter Kit
+# Flash Cards
+### Abstract:
+I made a game which can be played directly in the users terminal. The game is set up much like flash cards, in which each round of the game the user is presented a question in the terminal as well as 3 possible answers. To select an answer the user either can directly type the number that corresponds to the answer they would like to select (1, 2 or 3) into the terminal, or use the up and down arrows to select the desired answer, which will be highlighted as blue, and press enter to lock the answer in. Upon pressing enter the first time, a message will appear in the terminal declaring whether the answer was correct or not, while pressing enter again will show the next "flash card"/question. There are 50 total "flash cards" in the deck, and once the final card has been answered, a message will appear in the terminal announcing the percent of questions answered correctly. 
 
-## Fork This Repo
+### Preview of App:
+![screen shot of individual flash card](./screenshot2.png)
+![screen shot of end of round message](./screenshot1.png)
 
-On the top right corner of this page, click the **Fork** button.
+### Technologies Used:
+The technologies used in this project are the mocha testing framework used in tandem with chai assertion library. This program was built in a test-driven development manner, such that tests were written before implementation code. The implementation code was written using javascript. 
 
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies using the command:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have skipped tests in your `card` test file show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run this file until you are running your `game` file in Iteration 3. Prior to that, you should strive to use TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-**Create all of your feature code files in the `src` directory.** Use the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to run the `node index.js` command in your terminal to run the game.
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `card-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
+### Installation Instructions:
+1. Fork this repo and copy the SSH Key
+2. Navigate to terminal and run `git clone SSH key`
+3. Type `cd ticTacToe` in local terminal to navigate to root directory
+4. Type `npm install` or `npm i` to install the library dependencies
+5. Type `node index.js` to run the file and make the game appear in the terminal
+6. To play the game, either type `1`, `2` or `3` in the terminal (whichever corresonds to the answer you would like to select) or use the up and down arrow keys to select and answer and press enter once to see whether the answer was correct, and enter once more to see the next question. 
