@@ -3,7 +3,8 @@
 I made a game which can be played directly in the users terminal. The game is set up much like flash cards, in which each round of the game the user is presented a question in the terminal as well as 3 possible answers. To select an answer the user either can directly type the number that corresponds to the answer they would like to select (1, 2 or 3) into the terminal, or use the up and down arrows to select the desired answer, which will be highlighted as blue, and press enter to lock the answer in. Upon pressing enter the first time, a message will appear in the terminal declaring whether the answer was correct or not, while pressing enter again will show the next "flash card"/question. There are 50 total "flash cards" in the deck, and once the final card has been answered, a message will appear in the terminal announcing the percent of questions answered correctly. 
 
 ### Preview of App:
- ![screen shot of Idea Box Web App](./assets2/Screenshot-IdeaBox.png)
+![screen shot of individual flash card](./screenshot2.png)
+![screen shot of end of round message](./screenshot1.png)
 
 ### Technologies Used:
 The technologies used in this project are the mocha testing framework used in tandem with chai assertion library. This program was built in a test-driven development manner, such that tests were written before implementation code. The implementation code was written using javascript. 
