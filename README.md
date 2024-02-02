@@ -15,4 +15,4 @@ The technologies used in this project are the mocha testing framework used in ta
 3. Type `cd ticTacToe` in local terminal to navigate to root directory
 4. Type `npm install` or `npm i` to install the library dependencies
 5. Type `node index.js` to run the file and make the game appear in the terminal
-6. To play the game, either type 1, 2 or 3 in the terminal (whichever corresonds to the answer you would like to select) or use the up and down arrow keys to select and answer and press enter once to see whether the answer was correct, and enter once more to see the next question. 
+6. To play the game, either type `1`, `2` or `3` in the terminal (whichever corresonds to the answer you would like to select) or use the up and down arrow keys to select and answer and press enter once to see whether the answer was correct, and enter once more to see the next question. 
